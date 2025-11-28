@@ -11,12 +11,13 @@ RUN apt-get update && \
   libelf-dev \
   libpcap-dev \
   libbfd-dev \
+  libssl-dev \
   binutils-dev \
   build-essential \
   make \
   linux-tools-common \
-  linux-tools-$(uname -r) \
-  linux-headers-$(uname -r) \
+  linux-tools-xilinx-6.8 \
+  linux-headers-6.8.0-1019-xilinx \
   linux-image-extra-virtual \
   iproute2 \
   bpfcc-tools \
